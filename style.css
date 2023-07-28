@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body{
+    background-color: rgb(235, 36, 36);
+}
+
+a{
+    color: white;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin-block: 3vh;
+    /* color: greenyellow; */
+}
+
+.navbar-brand {
+    margin-right: -10rem;
+}
+
+.img-fluid {
+    max-width: 22%;
+    border-radius: 50px;
+}
+
+/* CSS for Search Box */
+.search-box {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search-box input[type="text"] {
+    width: 71%;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 12vw;
+}
+
+
+ /* CSS for Song Cards */
+ .song-card {
+    margin-bottom: 20px;
+  }
+  
+  .song-card img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  .song-card .card-body {
+    padding-block: 10px;
+    width: 200px;
+  }
+
+  .col-md-4{
+    width: auto;
+  }
+
+  .row{
+    justify-content: center;
+  }
